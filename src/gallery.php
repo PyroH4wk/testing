@@ -28,7 +28,7 @@
             $links[] = 'http://localhost/uploads/' . $fileName;
         }
         foreach ($links as $link) : ?>
-            <a href="<?= $link ?>"><img src="<?= $link ?>" height="80px"></a>
+            <a href="<?= $link ?>"><img src="<?= $link ?>" height="200px"></a>
         <?php endforeach; ?>
     </body>
 
@@ -37,3 +37,4 @@
     <p>Пожалуйста, авторизуйтесь</p>
     <p><a href="login.php"> Авторизация</a></p>
 <?php endif; ?>
+
